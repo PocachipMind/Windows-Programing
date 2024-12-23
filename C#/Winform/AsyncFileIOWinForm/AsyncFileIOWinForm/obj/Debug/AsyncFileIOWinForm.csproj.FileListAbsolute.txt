@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\bin\Debug\AsyncFileIOWinForm.exe.config
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\bin\Debug\AsyncFileIOWinForm.exe
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\bin\Debug\AsyncFileIOWinForm.pdb
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\obj\Debug\AsyncFileIOWinForm.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\obj\Debug\AsyncFileIOWinForm.MainForm.resources
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\obj\Debug\AsyncFileIOWinForm.Properties.Resources.resources
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\obj\Debug\AsyncFileIOWinForm.csproj.GenerateResource.cache
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\obj\Debug\AsyncFileIOWinForm.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\obj\Debug\AsyncFileIOWinForm.exe
+C:\Users\User\Desktop\재학습 윈프\Winform\ThisIsCSharp7\20\AsyncFileIOWinForm\AsyncFileIOWinForm\AsyncFileIOWinForm\obj\Debug\AsyncFileIOWinForm.pdb
