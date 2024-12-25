@@ -34,7 +34,7 @@ WPF를 통해 Calculator를 구현합니다.
 2. 계산식 창(파란색)
    - ResultLabel 위에, 입력 정보를 옅은 회색으로 표시
    - 연산자가 눌리면, lastNumber와 현재 입력된 연산자를 표시
-   - 
+     
 ![image](https://github.com/user-attachments/assets/012a6676-16de-41f7-9c1e-7cd3cb322a04)
 
 # 3. 연속 계산 기능
@@ -42,7 +42,7 @@ WPF를 통해 Calculator를 구현합니다.
 1. 연산자가 2개 이상 사용되는 계산이 가능하도록 프로그램 구현
    - 계산 History 및 계산식 창도 이에 맞게 구현
    - 중간 계산 결과를 화면에 보여주지 않음
-   - 
+     
 ![image](https://github.com/user-attachments/assets/64022d6a-035e-46c5-bb3b-bb883eab1e61)
 
 
