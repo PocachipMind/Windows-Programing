@@ -8,7 +8,7 @@ WPF를 통해 Calculator를 구현합니다.
 
 ![image](https://github.com/user-attachments/assets/d9dcf382-a323-4700-8706-b7b6f524b499)
 
-# 1. 버튼
+# Excutables 1. 버튼
 1. Del 버튼
    - ResultLabel의 텍스트를 뒤에서부터 하나씩 지울 수 있는 기능
    - 텍스트가 한 글자일때 누르면, 0으로 초기화
@@ -25,7 +25,7 @@ WPF를 통해 Calculator를 구현합니다.
 
 ![image](https://github.com/user-attachments/assets/c4fb11f4-8ccf-4c16-96c6-b43d08d08b17)
 
-# 2. 계산 History 및 계산식 창
+# Excutables 2. 계산 History 및 계산식 창
 
 1. 계산 History창(빨간색)
    - ListView를 사용
@@ -37,7 +37,7 @@ WPF를 통해 Calculator를 구현합니다.
      
 ![image](https://github.com/user-attachments/assets/012a6676-16de-41f7-9c1e-7cd3cb322a04)
 
-# 3. 연속 계산 기능
+# Excutables 3. 연속 계산 기능
 
 1. 연산자가 2개 이상 사용되는 계산이 가능하도록 프로그램 구현
    - 계산 History 및 계산식 창도 이에 맞게 구현
