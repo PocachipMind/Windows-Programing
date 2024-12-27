@@ -1,0 +1,71 @@
+﻿<Window x:Class="DbAsyncEx.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DbAsyncEx"
+        xmlns:vm="clr-namespace:DbAsyncEx.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="610" Width="660">
+    <Window.Resources>
+        <vm:MainWindowVM x:Key="VM"/>
+        <!--
+        <Style x:Key="datatrigger">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Value, ElementName=AsyncProgressBar}" Value="100">
+                    <Setter Property="Control.IsEnabled" Value="True"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Value, ElementName=AsyncProgressBar}" Value="1">
+                    <Setter Property="Control.IsEnabled" Value="False"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style> 
+        -->
+    </Window.Resources>
+
+    <Grid Margin="10" DataContext="{StaticResource VM}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Column="0" Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Margin="0,0,0,10">
+                    <TextBlock Text="USERNAME" Margin="0,10,0,5"/>
+                    <TextBox x:Name="usernametxtbox" Height="20" Margin="0,0,0,10" Text="{Binding Name}"/>
+
+                    <TextBlock Text="USERGENDER" Margin="0,10,0,5"/>
+                    <TextBox x:Name="usergendertbox" Height="20" Margin="0,0,0,10" Text="{Binding Gender}"/>
+
+                    <TextBlock Text="USERAGE" Margin="0,10,0,5"/>
+                    <TextBox x:Name="useragetxtbox" Height="20" Margin="0,0,0,10" Text="{Binding Age}"/>
+
+                    <TextBlock Text="USERJOB" Margin="0,10,0,5"/>
+                    <TextBox x:Name="userjobyxtbox" Height="20" Margin="0,0,0,10" Text="{Binding Job}"/>
+
+                    <TextBlock Text="USERMBTI" Margin="0,10,0,5"/>
+                    <TextBox x:Name="usermbtitxtbox" Height="20" Margin="0,0,0,10" Text="{Binding Mbti}"/>
+
+                    <Button Content="Read" Height="30" Margin="0,5" Background="LightBlue" Command="{Binding Path=ReadButtonCommand}"/>
+                    <Button Content="Create" Height="30" Margin="0,5" Background="LightGreen" Command="{Binding Path=CreateButtonCommand}"/>
+                    <Button Content="Delete" Height="30" Margin="0,5" Background="LightCoral" Command="{Binding Path=DeleteButtonCommand}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" >
+                    <Button Content="AsyncTest" Height="30" Margin="2,20" Background="DarkGray" Command="{Binding Path=AsyncTestButtonCommand}" IsEnabled="{Binding AsyButtonIsEnable}"/>
+                    <ProgressBar x:Name="AsyncProgressBar" Height="20" Value="{Binding ProgressValue}"/>
+                </StackPanel>
+
+             
+            </Grid>
+        </StackPanel>
+
+
+        <DataGrid x:Name="dataGrid" Grid.Column="1" AutoGenerateColumns="True" Margin="10" IsReadOnly="True" SelectionMode="Single" ItemsSource="{Binding MyListUser}"/>
+    </Grid>
+</Window>
