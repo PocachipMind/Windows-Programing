@@ -13,13 +13,15 @@ DataBase 활용 및 비동기 코드 연습을 위한 토이프로젝트.
 AsyncTest 버튼을 누르면 비동기적으로 Progress바의 밸류가 올라감 ( 위쪽 GIF 참고 )
 
 ## 2. DB연동
-데이터 베이스 연동 GUI 설계
+데이터 베이스 연동 GUI 설계.
+
+WPF상에서 데이터 입력시 실 데이터도 변경됨.
 
 ![image](https://github.com/user-attachments/assets/90a1a404-6232-4e06-a338-9901bbef661b)
 
 ## 3. MVVM 패턴
 M, V, VM 을 구분하여 프로젝트 구성. 
 
-Command를 VM에 포함하는 방식도 많이 쓰여서 고려
+Command를 VM에 포함하는 방식도 많이 쓰여서 고려.
 
 ![image](https://github.com/user-attachments/assets/a1d5c76c-6998-4479-b5f0-ef2d48600864)
