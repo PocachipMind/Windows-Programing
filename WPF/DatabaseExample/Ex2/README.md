@@ -22,6 +22,6 @@ WPF상에서 데이터 입력시 실 데이터도 변경됨.
 ## 3. MVVM 패턴
 M, V, VM 을 구분하여 프로젝트 구성. 
 
-Command를 VM에 포함하는 방식도 많이 쓰여서 고려중에 있으나, 여태 구현해온 학습 내용대로 구현 진행.
+Command를 VM 클래스 내부에 포함하는 방식도 많이 쓰여서 고려중에 있으나, 여태 구현해온 학습 내용대로 구현 진행.
 
 ![image](https://github.com/user-attachments/assets/a1d5c76c-6998-4479-b5f0-ef2d48600864)
