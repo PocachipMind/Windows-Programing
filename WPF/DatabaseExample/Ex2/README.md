@@ -11,7 +11,7 @@ DataBase 활용 및 비동기 코드 연습을 위한 토이프로젝트.
 
 <!--![VID_20241230_115735-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8c441129-8d31-40a2-b3ab-f4e8066038e7)-->
 
-![VID_20241227_113009-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d8bf23fc-0ec6-4de0-8afc-a21ed91c78d7)
+<!--![VID_20241227_113009-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d8bf23fc-0ec6-4de0-8afc-a21ed91c78d7)-->
 
 ## 1. 비동기 코드 작성
 AsyncTest 버튼을 누르면 비동기적으로 Progress바의 밸류가 올라감 ( 위쪽 GIF 참고 )
