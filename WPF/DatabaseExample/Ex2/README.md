@@ -7,7 +7,7 @@ DataBase 활용 및 비동기 코드 연습을 위한 토이프로젝트.
 2. DB연동 ( ADO.NET )
 3. MVVM 패턴 복습 및 인프런 학습 내용 적용 ( 나중에 보고 다시 코드 재활용을 위한 노트 프로젝트 )
 
-<img src="https://github.com/user-attachments/assets/8c441129-8d31-40a2-b3ab-f4e8066038e7" alt="VID_20241230_115735-ezgif com-video-to-gif-converter" width="70%">
+<img src="https://github.com/user-attachments/assets/8c441129-8d31-40a2-b3ab-f4e8066038e7" alt="VID_20241230_115735-ezgif com-video-to-gif-converter" width="60%">
 
 <!--![VID_20241230_115735-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8c441129-8d31-40a2-b3ab-f4e8066038e7)-->
 
