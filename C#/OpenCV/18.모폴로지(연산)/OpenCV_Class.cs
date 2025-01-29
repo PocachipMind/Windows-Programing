@@ -21,7 +21,7 @@ namespace OpenCV_Practice
             return bin;
         }
 
-        // 침식 메소드
+        
         public IplImage MorphologyImage(IplImage src)
         {
 
