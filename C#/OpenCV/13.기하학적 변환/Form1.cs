@@ -22,7 +22,7 @@ namespace OpenCV_Practice
             OpenCV_Class Convert = new OpenCV_Class();
 
             pictureBoxIpl1.ImageIpl = src;
-            pictureBoxIpl2.ImageIpl = Convert.AffineImage(src);
+            pictureBoxIpl2.ImageIpl = Convert.PerspectiveImage(src);
         }
 
 
