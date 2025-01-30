@@ -18,3 +18,5 @@
 모멘트 함수는 총 3가지의 모멘트를 얻을 수 있습니다.
 
 1. 공간 모멘트, 2. 중심 모멘트, 3. 정규화된 중심 모멘트
+
+![image](https://github.com/user-attachments/assets/2930dd01-8fb7-4e54-85ba-c7644a27e22c)
