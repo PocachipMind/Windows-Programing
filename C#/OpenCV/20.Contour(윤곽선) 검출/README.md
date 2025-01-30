@@ -9,3 +9,13 @@
 - 내곽과 외곽의 윤곽선 검출
 - 이미지의 최외곽의 내무 윤곽까지 검출
 - 윤곽선 검출 함수는 코너 검출 함수에도 사용
+
+## 검색 방법 ( ContourRetrieval.* )
+
+- ContourRetrieval.CComp : 모든 윤곽선을 검색하여 두 레벨의 계층 구조로 구성합니다. 최상위 레벨은 구성 요소의 외곽(외부) 경계이고, 두 번째 레벨은 내곽(홀)의 경계입니다.
+
+- ContourRetrieval.External : 외곽 윤곽선만 검출합니다.
+
+- ContourRetrieval.List : 모든 윤곽선을 검출하여 list에 넣습니다.
+
+- ContourRetrieval.Tree : 모든 윤곽선을 검출하여 Tree계층 구조로 만듭니다.
