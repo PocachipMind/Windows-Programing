@@ -20,3 +20,13 @@
 - 검출된 코너가 측정값이 높더라도 너무 가까이 있으면 하나의 코너로 볼 수가 있습니다. 여기서 최소거리를 두어 어느정도 거리가 벌어져 있어야 코너로 간주합니다.
 
 ### 퀄리티 레벨과 최소 거리 둘 다 실수형(Double)을 사용
+
+## Find Corner SubPix 함수
+> Find Corner SubPix 함수
+- 검출된 코너들의 정확한 위치를 찾기 위해 반복
+Find Corner SubPix 함수는 총 3개의 인수에 의해 검출이 결정됩니다.
+- win : 검출 영역
+- zeroZone : 검출 제외 영역
+- Criteria : 코너 정밀화 반복 작업
+
+![image](https://github.com/user-attachments/assets/484bc07c-fc22-4082-a838-9f2f3563a825)
