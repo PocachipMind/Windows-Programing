@@ -19,3 +19,21 @@
 - ContourRetrieval.List : 모든 윤곽선을 검출하여 list에 넣습니다.
 
 - ContourRetrieval.Tree : 모든 윤곽선을 검출하여 Tree계층 구조로 만듭니다.
+
+### 가장 많이 사용되는 방법은 List 사용 방법. 특별한 경우가 아니라면 List 방법을 사용하시면 됩니다.
+
+## 근사화 방법 ( ContourChain.* )
+
+- ContourChain.ApproxNone : 윤곽점들의 모든 점을 반환합니다.
+
+- ContourChain.ApproxSimple : 윤곽점들 단순화 수평, 수직 및 대각선 요소를 압축하고 끝점만 남겨 둡니다.
+
+- ContourChain.Code : 프리먼 체인 코드에서의 윤곽선으로 적용합니다.
+
+- ContourChain.ApproxTC89KCOS, ContourChain.ApproxTC89L1 : Teh-Chin 알고리즘 적용합니다.
+
+- ContourChain.LinkRuns : 하나의 수평 세그먼트를 연결하여 완전히 다른 윤곽선 검색 알고리즘을 사용합니다.
+
+### 가장 많이 사용되는 방법은 Approx 방법
+
+### 윤곽선 검출함수는 크게 두가지가 있습니다. FindContour, ContourScanner
