@@ -30,3 +30,20 @@ Find Corner SubPix 함수는 총 3개의 인수에 의해 검출이 결정됩니
 - Criteria : 코너 정밀화 반복 작업
 
 ![image](https://github.com/user-attachments/assets/484bc07c-fc22-4082-a838-9f2f3563a825)
+
+## Good Feature to Track + Harris Corner
+해리스 코너법은 
+- 관심 영역 : 코너가 감지되는 영역 = null
+- 블록 크기 : 코너 계산을 위한 평균 블록 크기 ( 블록 크기 x 블록 크기 만큼 범위 고려 )
+- Harris 방법 사용 유/무 = True
+- ksize : Harris 방법의 매개 변수
+
+### ksize 값이 작을수록 더 많은 코너점들이 반환됨.
+
+## Harris Corner Detector
+
+해리스 코너 디텍트 함수는 3가지만을 고려합니다.
+
+- 블록 크기 : 코너 계산을 위한 평균 블록 크기 ( 블록 크기 x 블록 크기 만큼 범위 고려 )
+- ksize : Harris 방법의 매개 변수
+- 커널 : Sobel 커널
