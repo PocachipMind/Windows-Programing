@@ -52,3 +52,17 @@ CvMat 형식은 멀티 채널 매트릭스를 의미합니다. IPL 이미지처�
    
 
 ![image](https://github.com/user-attachments/assets/cc9b640d-d061-44ed-bc08-5ceb1aa4b6bb)
+
+
+
+## 형식 변환
+
+형식 변환은 비트맵에서 IPL 이미지, CvMat 두가지 모드로 변환할 수 있고 IPL 이미지와 CvMat도 동일하게 어떤 형식으로도 변환할 수 있습니다.
+
+비트맵 형식으로 변환할 때 비트맵 확장자를 사용한다면 Drawing Namespace를 추가해야합니다.
+
+또한 형식변환을 사용하기 위해서는 OpenCV에 포함되어있는 Extensions 네입스페이스를 추가해야합니다.
+
+비트맵으로 변경할 때 비트맵 확장자를 사용하지 않는다면 Drawing 네임스페이스는 사용하지 않아도 되지만 형식변환을 사용한다면 Extensions 네임스페이스는 필수적으로 추가되어야 합니다.
+
+![image](https://github.com/user-attachments/assets/5ff88840-4ca9-41fd-a877-fa8174cb8ce0)
