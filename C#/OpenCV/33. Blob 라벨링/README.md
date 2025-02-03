@@ -5,3 +5,6 @@
 
 ![image](https://github.com/user-attachments/assets/32fb29fe-4f85-4962-a3c2-54e0ab527e9c)
 
+## 코드에서
+
+![image](https://github.com/user-attachments/assets/e2a023ac-d726-4f15-803f-724667659d51)
